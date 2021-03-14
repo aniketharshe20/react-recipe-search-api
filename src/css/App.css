@@ -1,0 +1,52 @@
+.App {
+    text-align: center;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(15px + 2vmin);
+    font-weight: bold;
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.filterLbl {
+    float: left;
+    font-size: medium;
+    color: #6e6e6e;
+    text-align: left;
+    width: 100%;
+}
+
+.checkbox-group {
+    width: 100px;
+}
+
+.chkLabel {
+    text-align: left;
+    width: 150px;
+}
+
+.w-health {
+    width: 180px;
+}
+
+.recipe-box {
+    width: 220px;
+    background-color: #f2f2f2;
+}
+
+.cal-info {
+    margin: 0 !important;
+    font-size: small;
+    border-top: 2px solid #dee2e6 !important;
+    border-bottom: 2px solid #dee2e6 !important;
+}

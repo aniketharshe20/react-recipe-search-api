@@ -1,0 +1,19 @@
+{
+    "cuisineType" : ["American", "Asian", "British", "Chinese"],
+    "mealType" : ["Breakfast", "Lunch", "Dinner", "Snack", "Teatime"],
+    "dishType" : ["Salad", "Bread", "Cereals", "Drinks", "Main course", "Desserts"],
+    "health" : {
+        "alcohol-free": "Alcohol-free",
+        "immuno-supportive": "Immune-Supportive",
+        "celery-free": "Celery-free",
+        "dairy-free": "Dairy",
+        "keto-friendly": "Keto",
+        "low-sugar": "No-sugar"
+    },
+    "diet" : {
+        "balanced": "Balanced",
+        "high-fiber": "High-Fiber",
+        "high-protein": "High-Protein",
+        "low-fat": "Low-Fat"
+    }
+}
