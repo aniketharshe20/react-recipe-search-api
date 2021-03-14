@@ -1,5 +1,4 @@
-## sprint-planner-react-bootstrap
-ReactJS - Recipe api search app.
+## ReactJS - Recipe api search app.
 
 ### Introduction
 
@@ -9,8 +8,11 @@ API used is [https://developer.edamam.com/edamam-docs-recipe-api](https://develo
 This app is developed in functional components approach and it uses react hooks.
 
 In the App component, a Container component is used, which holds the state and logic to fetch the data from api. getRecipes() method is used to make fetch api call to get the response, response is then stored in state, it stores upto 5 user searches, so that we don't have to make api call on each search.
+
 Container component renders SearchBox and SearchResult components. The SearchBox component hosts the user input fields to search the result.
+
 SearchBox also makes the use of CheckBoxGroup component, which accepts the array containing group of items and renders the checkboxes for that group.
+
 SearchResult will conditionally load RecipeList component or display no result found if api doesn't return any response for the input.
 RecipeList renders the response from api by looping over the data.
 
